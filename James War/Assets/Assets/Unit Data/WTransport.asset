@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997b5ac27545a4c4da2e3c0a03db97cc, type: 3}
+  m_Name: WTransport
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2464451721134694197, guid: f7bea4942e42a9e45a766d9de2cf4a93, type: 3}
+  unitName: Water Support
+  unitCategory: 2
+  moveRange: 6
+  visionRange: 4
+  attackRangeMin: 0
+  attackRangeMax: 0
+  ammoCap: -1
+  fuelCap: 50
+  price: 6000
+  primaryAttackPower: 0
+  secondaryAttackPower: 0
+  defencePower: 50
+  health: 100
+  isAir: 0
+  isGround: 0
+  isWater: 1
+  isTrapImmune: 0
+  canCapture: 0
+  isRanged: 0
+  isMelee: 0
+  canSeeInvis: 0
+  isInvis: 0
+  canTrap: 0
+  canSupply: 1
+  canTransport: 1
+  primaryHitsAir: 0
+  primaryHitsGround: 0
+  primaryHitsWater: 0
+  secondaryHitsAir: 0
+  secondaryHitsGround: 0
+  secondaryHitsWater: 0
+  cargoType: 1
+  isBasic: 1
+  shortName: WSP

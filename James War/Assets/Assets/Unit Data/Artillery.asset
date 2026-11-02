@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997b5ac27545a4c4da2e3c0a03db97cc, type: 3}
+  m_Name: Artillery
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8484173835816932206, guid: fed9b2b0157f7a14ba2f3a6a66e8c09b, type: 3}
+  unitName: Artillery
+  unitCategory: 1
+  moveRange: 4
+  visionRange: 2
+  attackRangeMin: 2
+  attackRangeMax: 4
+  ammoCap: 6
+  fuelCap: 40
+  price: 8000
+  primaryAttackPower: 100
+  secondaryAttackPower: 0
+  defencePower: 50
+  health: 80
+  isAir: 0
+  isGround: 1
+  isWater: 0
+  isWheeled: 0
+  isTreaded: 1
+  isTrapImmune: 0
+  canCapture: 0
+  isRanged: 1
+  isMelee: 0
+  canSeeInvis: 0
+  isInvis: 0
+  canTrap: 0
+  canSupply: 0
+  canTransport: 0
+  primaryHitsAir: 0
+  primaryHitsGround: 1
+  primaryHitsWater: 1
+  secondaryHitsAir: 0
+  secondaryHitsGround: 1
+  secondaryHitsWater: 1
+  shortName: ART

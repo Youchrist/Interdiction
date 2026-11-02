@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997b5ac27545a4c4da2e3c0a03db97cc, type: 3}
+  m_Name: Trapper
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1577733491843729191, guid: 9ad45bd8d9f412b42879a4ffbd1d3bde, type: 3}
+  unitName: Trapper
+  moveRange: 2
+  visionRange: 2
+  attackRangeMin: 1
+  attackRangeMax: 1
+  ammoCap: 3
+  fuelCap: -1
+  price: 4000
+  primaryAttackPower: -1
+  secondaryAttackPower: 45
+  defencePower: 0
+  health: 50
+  isAir: 0
+  isGround: 1
+  isWater: 0
+  isTrapImmune: 1
+  canCapture: 1
+  isRanged: 0
+  isMelee: 1
+  canSeeInvis: 0
+  isInvis: 0
+  canTrap: 1
+  canSupply: 0
+  canTransport: 0
+  primaryHitsAir: 0
+  primaryHitsGround: 0
+  primaryHitsWater: 0
+  secondaryHitsAir: 1
+  secondaryHitsGround: 1
+  secondaryHitsWater: 1
+  shortName: TRP
